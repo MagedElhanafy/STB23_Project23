@@ -6,16 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap"
-      rel="stylesheet"
-    />
-    <link href="/style.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href="./style.css" rel="stylesheet" />
   </head>
-  <body class="show">
+  <body class="show" id="btc">
     <main>
-      <div id="tools" class="tools">
-        <div class="buttons">
+      <div id="tools" class="tools" >
+        <div class="buttons" style="padding-left: 80px;" >
           <button id="restart" class="restart icon">restart</button>
           <button id="previousChapter" class="pprevious icon">
             previous chapter
@@ -26,7 +23,7 @@
           </button>
           <button id="nextSlide" class="next icon">next slide</button>
         </div>
-        <div>
+        <div style="margin:0 200px 0 0 ;">
           <span id="titles" class="titles"
             ><span>Intro (<span class="position">1</span>/12)</span
             ><span>Tools (<span class="position">1</span>/24)</span
@@ -38,7 +35,9 @@
           @ <strong>Frontend CULS 2022</strong>
         </div>
       </div>
-      <div id="presentation" class="presentation">
+
+      <div id="presentation" class="presentation" style="margin: 5% 2% 200px 2%;">
+<div class="blurred-box">
         <div class="chapter" style="width: 1200vw">
           <section><h2>Frontend CULS 2022</h2></section>
           <section>
@@ -500,7 +499,8 @@
         </div>
       </div>
 
-      <script src="/script.js"></script>
+</div>
+      <script src="./script.js"></script>
     </main>
   </body>
 </html>
